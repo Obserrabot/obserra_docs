@@ -38,18 +38,11 @@
         "tab": "Error explanation",
         "groups": [
           {
-            "group": "Dashboard to Bot API Errors",
+            "group": "Services",
             "pages": [
-              "errors/introduction"
-            ]
-          },
-          {
-            "group": "Test",
-            "pages": [
-              "errors/endpoint/get",
-              "errors/endpoint/create",
-              "errors/endpoint/delete",
-              "errors/endpoint/webhook"
+              "errors/introduction",
+              "errors/dashboard-to-bot-api"
+
             ]
           }
         ]
