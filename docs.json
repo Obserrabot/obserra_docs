@@ -38,7 +38,7 @@
         "tab": "Error explanation",
         "groups": [
           {
-            "group": "Error Documentation",
+            "group": "Bot API Errors",
             "pages": [
               "errors/introduction"
             ]
