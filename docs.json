@@ -35,21 +35,21 @@
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Error explanation",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Error Documentation",
             "pages": [
-              "api-reference/introduction"
+              "errors/introduction"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Test",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "errors/endpoint/get",
+              "errors/endpoint/create",
+              "errors/endpoint/delete",
+              "errors/endpoint/webhook"
             ]
           }
         ]
