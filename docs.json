@@ -38,7 +38,7 @@
         "tab": "Error explanation",
         "groups": [
           {
-            "group": "Bot API Errors",
+            "group": "Dashboard to Bot API Errors",
             "pages": [
               "errors/introduction"
             ]
