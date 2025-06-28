@@ -1,1 +1,1 @@
-# Obserra Bot documentatio
+# Obserra Bot documentation
