@@ -4,49 +4,55 @@ description: "Here you can find all the errors that may occur during communicati
 sidebarTitle: "Dashboard - Bot API"
 ---
 
-### 404 - Not Found
+### 🔍 404 - Not Found
 
-> This error indicates that the requested API endpoint could not be found.  
-> Possible reasons:
-> - The endpoint is incorrect.
-> - The bot service is temporarily unavailable.  
->  
-> **Solution:** Please try again in a few minutes. If the issue persists, contact us via a support ticket on our [Discord Server](https://discord.com/).
-
----
-
-### 500 - Guild Not Found
-
-> This error means that the guild you are trying to access could not be found.  
->  
-> **Possible cause:** The bot may be experiencing issues or the guild is no longer accessible.
+> Der angeforderte API-Endpunkt konnte nicht gefunden werden.  
+>
+> **Mögliche Ursachen:**  
+> - Der Endpunkt ist falsch.  
+> - Der Bot-Service ist vorübergehend nicht verfügbar.  
+>
+> **Lösung:** Bitte versuche es in ein paar Minuten erneut. Wenn das Problem weiterhin besteht, kontaktiere uns über ein Support-Ticket auf unserem [Discord Server](https://discord.com/).
 
 ---
 
-### 500 - Timeout
+### 🔍 500 - Network Not Found
 
-> This error means that the Discord bot took too long to respond.  
->  
-> **Common causes:**  
-> - The bot is busy or under high load.  
-> - There may be connectivity issues.
-
----
-
-### 500 - Logic Error
-
-> This error occurs when an unexpected logic issue arises during execution.  
->  
-> **Note:** This is likely a bug. Please report it if it continues.
+> Das angegebene Netzwerk konnte nicht gefunden werden.  
+>
+> **Mögliche Ursachen:**  
+> - Ungültige Netzwerk-ID.  
+> - Temporäres Netzwerkproblem.
 
 ---
 
-### 500 - Network Not Found
+### 🔍 500 - Guild Not Found
 
-> This error indicates that the specified network could not be found.  
->  
-> **Possible causes:**  
-> - Invalid network ID.  
-> - Temporary network issue.
+> Die angeforderte Guild (Server) konnte nicht gefunden werden.  
+>
+> **Mögliche Ursachen:**  
+> - Der Bot ist eventuell nicht auf dem Server.  
+>
+> **Lösung:** Bitte überprüfe, ob der Bot dem Server hinzugefügt wurde und ausreichende Berechtigungen besitzt.
+
+---
+
+### ⏱️ 500 - Timeout
+
+> Der Discord-Bot hat zu lange gebraucht, um zu antworten.  
+>
+> **Häufige Ursachen:**  
+> - Der Bot ist ausgelastet oder steht unter hoher Last.  
+> - Es gibt Verbindungsprobleme.  
+>
+> **Lösung:** Bitte versuche es in einer Minute erneut.
+
+---
+
+### ⚙️ 500 - Logic Error
+
+> Während der Ausführung ist ein unerwarteter Logikfehler aufgetreten.  
+>
+> **Hinweis:** Dies ist wahrscheinlich ein Bug. Bitte melde den Fehler, wenn er weiterhin auftritt.
 
 ---
