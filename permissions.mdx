@@ -1,63 +1,46 @@
 ---
-title: "Dashboard - Bot API"
-description: "Here you can find all the errors that may occur during communication from the Dashboard to the Bot."
-sidebarTitle: "Dashboard - Bot API"
+title: "Manage Permission for your Team"
+description: "Learn how to give your Team access to the Dashboard and the Bot."
 ---
 
+<Warning>
+  To manage permissions, make sure you have set a Head Server. All your team members must be in this server.
+</Warning>
 
-###  404 - Not Found
+Obserra allows you to manage permissions for specific Discord roles and assign exactly what they are allowed and not allowed to do in your Network.
 
-> The requested API endpoint could not be found.
->
-> **Possible reasons:**
->
-> - The endpoint is incorrect.
-> - The bot service is temporarily unavailable.
->
-> **Solution:** Please try again in a few minutes. If the issue persists, contact us via a support ticket on our [Discord Server](https://discord.com/).
+To set it up, head over to your Network's Settings page and then to **Permissions**.
 
----
+<Info>
+  Obserra works by creating permission groups which you then can assign Discord roles to. Users with those roles on your Head Server will have the permissions defined in the group on the Dashboard and the Bot itself.
+</Info>
 
-### 500 - Network Not Found
+# Setting up Permission Groups
 
-> The specified network could not be found.
->
-> **Possible causes:**
->
-> - Invalid network ID.
-> - Temporary network issue.
+### 1. Create a Permission Group
 
----
+Scroll to the bottom of the Permission management page. You can activate specific permissions (which you can edit later) and give the group a unique name, e.g. **Moderators**.
 
-### 500 - Guild Not Found
+You can see a list of all available permissions and their effects below.
 
-> The guild (server) you're trying to access could not be found.
->
-> **Possible cause:**
->
-> - The bot may not be on the server.
->
-> **Solution:** Please check whether the bot has been added to the server and has the required permissions.
+### 2. Assign Discord Roles to a Permission Group
 
----
+After creating your permission group, expand it with the little arrow next to its name. Here you can edit the permissions and assign Discord roles from your Head Server to this group.
 
-### 500 - Timeout
+> **Note:** Only roles from your Head Server, defined in your Server settings, can be assigned here.
 
-> The Discord bot took too long to respond.
->
-> **Common causes:**
->
-> - The bot is busy or under high load.
-> - There may be connectivity issues.
->
-> **Solution:** Please try again in a minute.
+<Tip>
+  You can assign multiple roles to a single group.
+</Tip>
 
----
+# Available Permissions
 
-### 500 - Logic Error
+## General Permissions
 
-> An unexpected logic issue occurred during execution.
->
-> **Note:** This is likely a bug. Please report it if it continues.
+### View Network Details
 
----
+> Allows viewing the Network on the Dashboard. Grants access to the Dashboard and the details page. This permission is required if a user should be able to use the Web Dashboard.
+
+| **Permission Name**     | **Effect**                                                                                                                                        |
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| View Network Details    | Grants the ability to view the Network on the Dashboard and access the details page. Required for Web Dashboard access.                         |
