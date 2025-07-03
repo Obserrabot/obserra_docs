@@ -34,12 +34,24 @@ After creating your permission group, expand it with the little arrow next to it
 
 # Available Permissions
 
-## General Permissions
-
-### View Network Details
-
-> Allows viewing the Network on the Dashboard. Grants access to the Dashboard and the details page. This permission is required if a user should be able to use the Web Dashboard.
+### General Permissions
 
 | **Permission Name**     | **Effect**                                                                                                                                        |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | View Network Details    | Grants the ability to view the Network on the Dashboard and access the details page. Required for Web Dashboard access.                         |
+
+### Administrator Permissions
+
+| **Permission Name**     | **Effect**                                                                                                                                        |
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| can manage servers    | Grants the ability to manage the servers that are associated with the network, eg. remove/add server to the Network.                         |
+| can manage network generel settings    | Grants the ability to manage generel settings like the name of the network                         |
+
+<Warning>
+WARNING: The following permission grants the User rely high permissions
+</Warning>
+| **Permission Name**     | **Effect**                                                                                                                                        |
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| can manage permissions    | Allwos the User to create/manage permission groups and assign roles to it. !!With this the user can give himself every permission!!                        |
+| can manage billing    | Grants the ability to manage the current plan. Warning the user could upgrade you plan what will cost you money!                        |
+| can delete network    | Allows the User to completely delete the Network.                         |
