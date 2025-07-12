@@ -1,0 +1,87 @@
+---
+title: "How to Get Discord IDs"
+description: "Learn how to find Discord Role, Server, Channel, and User IDs – essential for setting up the bot."
+---
+
+### Why You Need Discord IDs
+
+During the setup and configuration of the bot, you’ll often need to provide **Discord IDs** — such as for:
+
+- Servers (Guilds)
+- Channels
+- Roles
+- Users
+
+These IDs are required when assigning permissions, linking appeal servers, or configuring advanced bot features. Discord does **not** display these IDs by default, so you’ll need to enable Developer Mode first.
+
+---
+
+### 1. Enable Developer Mode
+
+To see and copy Discord IDs, you need to turn on **Developer Mode** in your Discord settings.
+
+#### Steps:
+
+1. Open **User Settings** (bottom left corner on Discord)
+2. Go to **Advanced** under *App Settings*
+3. Toggle on **Developer Mode**
+
+<Image src="/docs/images/dev-mode-settings.png" alt="Enable Developer Mode in Discord" />
+
+Once Developer Mode is enabled, you can right-click almost anything in Discord (servers, messages, users, channels, roles) and copy its ID.
+
+---
+
+### 2. How to Get Each ID Type
+
+<Steps>
+  <Step title="Server (Guild) ID">
+    <Info>
+      You need the Server ID to manually add a server or check logs tied to a specific guild.
+    </Info>
+
+    - Right-click the **server name** at the top left of your Discord server.
+    - Click **Copy Server ID**
+
+    <Image src="/docs/images/copy-server-id.png" alt="Copy Server ID from Discord" />
+  </Step>
+
+  <Step title="Channel ID">
+    <Info>
+      Useful when linking specific channels for bot actions, logs, or moderation commands.
+    </Info>
+
+    - Right-click the channel name (text or voice)
+    - Click **Copy Channel ID**
+
+    <Image src="/docs/images/copy-channel-id.png" alt="Copy Channel ID in Discord" />
+  </Step>
+
+  <Step title="Role ID">
+    <Info>
+      Required to configure role-based permissions or automatic role assignments.
+    </Info>
+
+    - Go to **Server Settings → Roles**
+    - Right-click the role in the list
+    - Click **Copy Role ID**
+
+    <Image src="/docs/images/copy-role-id.png" alt="Copy Role ID in Discord" />
+  </Step>
+
+  <Step title="User ID">
+    <Info>
+      Used to assign permissions to specific users or to debug user-related actions.
+    </Info>
+
+    - Right-click the username (in chat or in the member list)
+    - Click **Copy User ID**
+
+    <Image src="/docs/images/copy-user-id.png" alt="Copy User ID in Discord" />
+  </Step>
+</Steps>
+
+---
+
+### Notes
+- IDs are static and won’t change unless the object is deleted and recreated.
