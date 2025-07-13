@@ -40,7 +40,7 @@
         "tab": "Legal Center",
         "groups": [
           {
-            "group": "Pages",
+            "group": "Services",
             "pages": [
               "legal/overview",
               "legal/imprint",
@@ -61,7 +61,7 @@
         {
           "anchor": "Join our Discord",
           "href": "https://discord.gg/rgm9WpCuVS",
-          "icon": "slack"
+          "icon": "chat"
         }
       ]
     }
