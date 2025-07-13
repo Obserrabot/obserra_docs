@@ -35,24 +35,33 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Legal Center",
+        "groups": [
+          {
+            "group": "Services",
+            "pages": [
+              "legal/overview",
+              "legal/imprint",
+              "legal/privacy"
+
+            ]
+          }
+        ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "test1",
-          "href": "https://test.de",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "test1",
-          "href": "https://test.de",
+          "anchor": "Our Socials",
+          "href": "https://obserra.net/socials",
           "icon": "slack"
         },
         {
-          "anchor": "test1",
-          "href": "https://test.de",
-          "icon": "newspaper"
+          "anchor": "Join our Discord",
+          "href": "https://discord.gg/rgm9WpCuVS",
+          "icon": "chat"
         }
       ]
     }
@@ -76,9 +85,10 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/",
+      "youtube": "https://www.youtube.com/@obserrabot",
+      "tiktok": "https://www.tiktok.com/@obserrabot",
       "github": "https://github.com/obserrabot",
-      "linkedin": "https://linkedin.com/"
+      "x": "https://x.com/"
     }
   }
 }
