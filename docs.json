@@ -40,11 +40,13 @@
         "tab": "Legal Center",
         "groups": [
           {
-            "group": "Services",
+            "group": "Documents",
             "pages": [
               "legal/overview",
               "legal/imprint",
-              "legal/privacy"
+              "legal/privacy",
+              "legal/agb",
+              "legal/avv-vertag"
 
             ]
           }
