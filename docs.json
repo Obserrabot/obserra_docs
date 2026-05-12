@@ -66,6 +66,18 @@
                 ]
               }
             ]
+          },
+          {
+            "tab": "Changelog",
+            "dropdowns": [
+              {
+                "dropdown": "Test",
+                "pages": [
+                  "untitled-page",
+                  "2"
+                ]
+              }
+            ]
           }
         ],
         "hidden": true
