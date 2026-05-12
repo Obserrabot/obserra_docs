@@ -92,5 +92,16 @@
       "github": "https://github.com/obserrabot",
       "x": "https://x.com/"
     }
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "errors": {
+    "404": {
+      "redirect": true
+    }
+  },
+  "interaction": {
+    "drilldown": false
   }
 }
