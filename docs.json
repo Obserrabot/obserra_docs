@@ -9,50 +9,6 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "permissions",
-              "development"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Error explanation",
-        "groups": [
-          {
-            "group": "Services",
-            "pages": [
-              "errors/introduction",
-              "errors/dashboard-to-bot-api"
-
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Legal Center",
-        "groups": [
-          {
-            "group": "Documents",
-            "pages": [
-              "legal/overview",
-              "legal/imprint",
-              "legal/privacy",
-              "legal/agb",
-              "legal/avv-vertag"
-
-            ]
-          }
-        ]
-      }
-    ],
     "global": {
       "anchors": [
         {
@@ -66,7 +22,54 @@
           "icon": "message"
         }
       ]
-    }
+    },
+    "versions": [
+      {
+        "version": "Untitled Version",
+        "tabs": [
+          {
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "Get Started",
+                "pages": [
+                  "index",
+                  "permissions",
+                  "development"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Error explanation",
+            "groups": [
+              {
+                "group": "Services",
+                "pages": [
+                  "errors/introduction",
+                  "errors/dashboard-to-bot-api"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Legal Center",
+            "groups": [
+              {
+                "group": "Documents",
+                "pages": [
+                  "legal/overview",
+                  "legal/imprint",
+                  "legal/privacy",
+                  "legal/agb",
+                  "legal/avv-vertag"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
